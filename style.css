@@ -1,0 +1,64 @@
+<style>
+.gop:focus {
+stroke: red;
+stroke-width: 3;
+    outline: none;
+    }
+
+    .tossup:focus {
+stroke: #575e5e;
+stroke-width: 3;
+    outline: none;
+    }
+
+    .dem:focus {
+stroke: #0808bd;
+stroke-width: 3;
+    outline: none;
+    }
+
+.gop path:first-of-type {
+fill: #FED6D6;
+}
+
+.tossup path:first-of-type {
+fill: #CCCCCC;
+}
+
+.dem path:first-of-type {
+fill: #6BBEF7;
+}
+
+h2.top-level {
+font-size: 1.5em;
+font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+margin: .5em;
+}
+
+#totals {
+display: flex;
+}
+
+#dems {
+color: #0808bd;
+}
+
+#gop {
+color: #a81414;
+}
+
+.top-level .party {
+display: block;
+font-size: 1;
+font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.visuallyhidden {
+position: absolute;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 0;
+margin: 0;
+height: 1;
+width: 1px;
+overflow: hidden;
+}
