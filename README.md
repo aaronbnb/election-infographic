@@ -1,4 +1,6 @@
-# election-infographic
+# Election Infographic
+An accessible, interactive infographic where users select the winner for close U.S. Senate race and predict which party controls the U.S. Senate. This infographic was used to provides an accessible example for a major media organization.
+**Accessibility Features**
 
 - Implemented a roving tabindex. Composite widgets such as tab panels, radio groups typically represent a single tab stop. Keyboard and assistive technology users can more efficiently navigate the page. Using the Tab key to move from element to the next is an acceptable approach.
 - The Application role is set on the SVG. This role  instructs screen readers to treat the element as a desktop application and not use their traditional techniques for interpreting HTML. This ensures that the screen reader does not intercept the keystrokes intended to reach the SVG.
